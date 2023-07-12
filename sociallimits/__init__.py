@@ -2,7 +2,7 @@ __version__ = "0.1.0"
 
 
 class SocialPlatform:
-    def __init__(caption_limit=None, tag_limit=None):
+    def __init__(self, caption_limit=None, tag_limit=None):
         self.caption_limit = caption_limit
         self.tag_limit = tag_limit
 
