@@ -8,12 +8,12 @@ class SocialPlatform:
 
 
 all_platforms = {
-    'FACEBOOK': SocialPlatform(caption_limit=2200),
-    'INSTAGRAM': SocialPlatform(tag_limit=30),
-    'PINTEREST': SocialPlatform(caption_limit=2200),
-    'TUMBLR': SocialPlatform(caption_limit=2200, tag_limit=20),
-    'TWITTER': SocialPlatform(caption_limit=280),
+    "FACEBOOK": SocialPlatform(caption_limit=2200),
+    "INSTAGRAM": SocialPlatform(tag_limit=30),
+    "PINTEREST": SocialPlatform(caption_limit=2200),
+    "TUMBLR": SocialPlatform(caption_limit=2200, tag_limit=20),
+    "TWITTER": SocialPlatform(caption_limit=280),
 }
 
-for (name, platform) in all_platforms.items():
+for name, platform in all_platforms.items():
     locals()[name] = platform
