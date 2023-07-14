@@ -1,4 +1,4 @@
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 
 class SocialPlatform:
@@ -9,8 +9,8 @@ class SocialPlatform:
 
 all_platforms = {
     "FACEBOOK": SocialPlatform(caption_limit=2200),
-    "INSTAGRAM": SocialPlatform(tag_limit=30),
-    "PINTEREST": SocialPlatform(caption_limit=2200),
+    "INSTAGRAM": SocialPlatform(caption_limit=2200, tag_limit=30),
+    "PINTEREST": SocialPlatform(caption_limit=2200, tag_limit=20),
     "TUMBLR": SocialPlatform(caption_limit=2200, tag_limit=20),
     "TWITTER": SocialPlatform(caption_limit=280),
 }
